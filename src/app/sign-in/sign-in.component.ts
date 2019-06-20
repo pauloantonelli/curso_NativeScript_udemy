@@ -16,11 +16,4 @@ export class SignInComponent implements OnInit {
 	) { }
 
 	ngOnInit() { }
-
-	signInUser() {
-		this.router.navigate(['/tasks']);
-	}
-	createAccount() {
-		this.router.navigate(['']);
-	}
 }
