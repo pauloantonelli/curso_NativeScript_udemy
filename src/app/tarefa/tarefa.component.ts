@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { TextField } from 'ui/text-field';
 
 @Component({
 	selector: 'tarefa',
