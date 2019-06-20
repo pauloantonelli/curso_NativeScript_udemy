@@ -1,0 +1,19 @@
+<ActionBar title="Autenticação" class="action-bar"></ActionBar>
+
+<StackLayout class="form p-t-20">
+
+    <StackLayout class="input-field">
+        <Label text="Email" class="label font-weight-bold m-b-5"></Label>
+        <TextField class="input" keyboardType="email" autocapitalizationType="none" autocorrect="false"></TextField>
+        <StackLayout class="hr-light"></StackLayout>
+    </StackLayout>
+
+    <StackLayout class="input-field">
+        <Label text="Senha" class="label font-weight-bold m-b-5"></Label>
+        <TextField class="input" secure="true"></TextField>
+        <StackLayout class="hr-light"></StackLayout>
+    </StackLayout>
+
+    <Button class="btn btn-primary btn-rounded-sm" text="Entrar" (tap)="signInUser()"></Button>
+    <Button class="btn btn-primary btn-outline btn-rounded-sm" text="Criar Conta" (tap)="createAccount()"></Button>
+</StackLayout>
