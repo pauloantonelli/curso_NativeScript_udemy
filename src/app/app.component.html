@@ -4,18 +4,28 @@
 -->
 <!-- fundamentos-interface- -->
 
-<GridLayout columns="50, auto, *" rows="50, auto, *" backgroundColor="lightgray">
-    <Label text="Label 1" col="0" row="0" backgroundColor="red"></Label>
-    <Label text="Label 2" col="1" row="0" backgroundColor="green"></Label>
-    <Label text="Label 3" col="2" row="0" backgroundColor="blue"></Label>
+<StackLayout orientation="vertical" backgroundColor="lightgray" width="auto">
+    <Label text="nome" horizontalAlignment="left"></Label>
+    <TextField hint="digite seu nome" text="" horizontalAlignment="left"></TextField>
+    <Label text="sobrenome" horizontalAlignment="right"></Label>
+    <TextField hint="digite seu sobrenome" text="" horizontalAlignment="right"></TextField>
+    <Label text="senha"></Label>
+    <TextField hint="digite sua senha" text=""></TextField>
+    <Button text="entrar" tap=""></Button>
+</StackLayout>
 
-    <Label text="Label 4" col="0" row="1" backgroundColor="yellow"></Label>
-    <Label text="Label 5" col="1" row="1" backgroundColor="orange"></Label>
-    <Label text="Label 6" col="2" row="1" backgroundColor="pink"></Label>
-
-    <Label text="Label 7" col="0" row="2" backgroundColor="purple"></Label>
-    <Label text="Label 8" col="1" row="2" backgroundColor="brown"></Label>
-    <Label text="Label 9" col="2" row="2" backgroundColor="red"></Label>
-</GridLayout>
 <!--
+<StackLayout orientation="horizontal" backgroundColor="lightgray">
+    <Label text="Label 1" verticalAlignment="stretch" backgroundColor="yellow"></Label>
+    <Label text="Label 2" verticalAlignment="top" backgroundColor="red"></Label>
+    <Label text="Label 3" verticalAlignment="middle" backgroundColor="green"></Label>
+    <Label text="Label 4" verticalAlignment="bottom" backgroundColor="blue"></Label>
+</StackLayout>
+
+<StackLayout orientation="vertical" backgroundColor="lightgray">
+    <Label text="Label 1" horizontalAlignment="left" width="50" height="50" backgroundColor="red"></Label>
+    <Label text="Label 2" horizontalAlignment="center" width="50" height="50" backgroundColor="green"></Label>
+    <Label text="Label 3" horizontalAlignment="right" width="50" height="50" backgroundColor="blue"></Label>
+    <Label text="Label 4" horizontalAlignment="stretch" height="50" backgroundColor="yellow"></Label>
+</StackLayout>
 -->
