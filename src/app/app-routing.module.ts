@@ -2,13 +2,11 @@ import { NgModule } from "@angular/core";
 import { NativeScriptRouterModule } from "nativescript-angular/router";
 import { Routes } from "@angular/router";
 
-import { SignInComponent } from "./sign-in/sign-in.component";
-import { TarefaComponent } from "./tarefa/tarefa.component";
+import { CoreAppComponent } from "./core-app/core-app.component";
 
 const routes: Routes = [
-    { path: "", redirectTo: "/sign-in", pathMatch: "full" },
-    { path: "sign-in", component: SignInComponent },
-    { path: "tasks", component: TarefaComponent },
+    { path: "", redirectTo: "/core-app", pathMatch: "full" },
+    { path: "core-app", component: CoreAppComponent },
 ];
 
 @NgModule({
