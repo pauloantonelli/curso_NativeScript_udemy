@@ -15,7 +15,3 @@ refer to http://docs.nativescript.org/ui/theme.
 @import '~nativescript-theme-core/css/core.dark.css';
 */
 @import '~nativescript-theme-core/css/core.light.css';
-
-Label {
-    background-color: steelblue;
-}
