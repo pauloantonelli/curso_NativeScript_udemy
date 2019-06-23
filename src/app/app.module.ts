@@ -4,8 +4,6 @@ import { NativeScriptModule } from "nativescript-angular/nativescript.module";
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 
-import { SignInComponent } from "./sign-in/sign-in.component";
-import { TarefaComponent } from "./tarefa/tarefa.component";
 import { CoreAppComponent } from "./core-app/core-app.component";
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
@@ -25,8 +23,6 @@ import { CoreAppComponent } from "./core-app/core-app.component";
     declarations: [
         AppComponent,
         CoreAppComponent,
-        SignInComponent,
-        TarefaComponent,
     ],
     providers: [],
     schemas: [
